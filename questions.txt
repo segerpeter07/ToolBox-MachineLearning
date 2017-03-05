@@ -1,0 +1,4 @@
+1) The general trend is that the accuracy on tests increases as the percentage increased.
+2) The bottom end of the curve tends to be noisier than the other parts which I think is because of the fluxuations that can occur between the small training set and the large amount used to extrapolate info. Basically, I just think it can very a lot.
+3) I ran it will 1,000 points and got a pretty smooth curve
+4) C has something to do with Tikhonov Regularization and Logistic Regressions. According to the documentation it is the "Inverse of regularization strength; must be a positive float. Like in support vector machines, smaller values specify stronger regularization."
